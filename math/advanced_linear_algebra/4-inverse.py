@@ -1,5 +1,5 @@
-
-dule for calculating matrix inverse."""
+#!/usr/bin/env python3
+"""Module for calculating matrix inverse."""
 
 
 def determinant(matrix):
@@ -111,4 +111,4 @@ def inverse(matrix):
             inverse_row.append(value)
         inverse_matrix.append(inverse_row)
 
-    return inverse_matrix
+    return inverse_matrix  
