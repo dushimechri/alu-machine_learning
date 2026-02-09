@@ -111,4 +111,4 @@ def inverse(matrix):
             inverse_row.append(value)
         inverse_matrix.append(inverse_row)
 
-    return inverse_matrix  
+    return inverse_matrix
